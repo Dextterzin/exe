@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ @media (min-width: 650px) {
+    body {
+        
+        background-image: url(tokyo2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+ }
+
+ body {
+    background-color: rgb(235, 230, 230);
+ }
+
+
+.menu-container {
+    background-color: black;
+    height: 80px;
+    position: relative;
+}
+
+.menu-items {
+    position: absolute;
+    right: 10px;
+    color: #bd20bd;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 30px;
+    padding-right: 20px;
+}
+
+.menu-items li {
+    display: inline;
+}
+
+#contatos {
+    padding-right: 10px;
+}
+
+
+.menu-items a {
+    background-color: #bd20bd;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.menu-items a:hover {
+    color: white;
+    background-color: #bd20bd;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.tittle {
+    background-color: rgb(235, 230, 230);
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 5px solid #bd20bd;
+}
+
+.tittle h1 {
+    padding-top: 60px;
+    font-size: 44px;
+    color: #bd20bd;
+}
+
+.tittle p {
+    font-size: 24px;
+    color: #bd20bd;
+
+}
+
+.renan {
+    background-color: rgb(235, 230, 230);
+    height: 300px;
+    width: 60%;
+    margin: auto;
+}
+
+.renan-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+
+.renan p {
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+}
+
+@media (max-width: 830px) {
+    .renan p {
+        display: inline-block;
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+.trabalhos {
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+}
+
+@media (max-width: 650px) {
+
+    .tittle {
+        background-color: rgb(235, 230, 230);
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        border-bottom: 5px solid #bd20bd;
+    }
+
+    .renan {
+        background-color: rgb(235, 230, 230);
+        height: 300px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .trabalhos {
+        width: 100%;
+        height: 500px;
+        display: flex;
+    }
+    
+}
+
+    
+
+
+.fotografia {
+    background-color: rgb(235, 230, 230);
+    width: 33%;
+    padding: 10px;
+    
+}
+
+.fotografia p {
+    background-color: white;
+    color: #bd20bd;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto -30px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+.fotografia h3 {
+    background-color: black;
+    color: #bd20bd;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    padding-top: 40px;
+}
+
+.fotografia ul {
+    list-style: none;
+    background-color: white;
+    color: #bd20bd;
+}
+
+.fotografia li {
+    padding: 10px;
+    
+}
+
+.social-media {
+    background-color: rgb(235, 230, 230);
+    width: 33%;
+    padding: 10px;
+}
+
+.social-media p {
+    background-color: white;
+    color: #bd20bd;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto -30px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.social-media h3 {
+    background-color: black;
+    color: #bd20bd;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.social-media ul {
+    list-style: none;
+    background-color: white;
+    color: #bd20bd;
+}
+
+.social-media li {
+    padding: 10px;
+}
+
+.video-editor {
+    background-color: rgb(235, 230, 230);
+    width: 34%;
+    padding: 10px;
+}
+
+.video-editor p {
+    background-color: white;
+    color: #bd20bd;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: 0 auto -30px;
+    position: relative;
+}
+
+.video-editor h3 {
+    background-color: black;
+    color: #bd20bd;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.video-editor ul {
+    list-style: none;
+    background-color: white;
+    color: #bd20bd;
+}
+
+.video-editor li {
+    padding: 10px;
+}
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: #bd20bd;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+
